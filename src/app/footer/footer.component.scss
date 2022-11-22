@@ -1,0 +1,118 @@
+.contentGridContainer{
+    display: flex;
+    align-items: center;
+    font: 14px/1.4em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    font-size: 15px;
+}
+
+.copyrightsection{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.contactSection{
+    width: 60%;
+}
+
+.copyright{
+    padding-left: 10%;
+}
+
+.items {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.item {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-heading {
+    padding: 10px;
+    font-weight: 800;
+}
+
+.item-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    // padding-left: 10px;
+    // transform: scale(.8);
+  }
+  .linkedIn{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/image/icons/icon-linkedin.png");
+    width: 100%;
+    height: 100%;
+    transform: scale(.8);
+  }
+
+  .Website{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/image/icons/icon-portfolio.png");
+    width: 100%;
+    height: 100%;
+    transform: scale(.8);
+  }
+
+  .instagram{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/image/icons/icon-instagram.png");
+    width: 100%;
+    height: 100%;
+    transform: scale(.8);
+  }
+
+  .Twitter{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/image/icons/icon-twitter.png");
+    width: 100%;
+    height: 100%;
+    transform: scale(.8);
+  }
+
+  @media screen and (max-width:768px) {
+    .contentGridContainer  {
+
+        align-items: unset;
+            flex-direction: column-reverse;
+        }
+        
+        .copyrightsection  {
+             width: auto; 
+        }
+        
+        .contactSection  {
+             width: auto; 
+        }
+        
+        .items  {
+             display: block;
+        }
+        
+        .item  {
+            padding: 0 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: unset;
+        }
+  }
